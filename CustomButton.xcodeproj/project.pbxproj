@@ -12,6 +12,8 @@
 		273018781E8BF71D00F3ADA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273018761E8BF71D00F3ADA3 /* Main.storyboard */; };
 		2730187A1E8BF71D00F3ADA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273018791E8BF71D00F3ADA3 /* Assets.xcassets */; };
 		2730187D1E8BF71D00F3ADA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2730187B1E8BF71D00F3ADA3 /* LaunchScreen.storyboard */; };
+		273018851E8BF78A00F3ADA3 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273018841E8BF78A00F3ADA3 /* CustomButton.swift */; };
+		273018871E8BF86700F3ADA3 /* UIViewStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273018861E8BF86700F3ADA3 /* UIViewStyling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		273018791E8BF71D00F3ADA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2730187C1E8BF71D00F3ADA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2730187E1E8BF71E00F3ADA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273018841E8BF78A00F3ADA3 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		273018861E8BF86700F3ADA3 /* UIViewStyling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewStyling.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				273018791E8BF71D00F3ADA3 /* Assets.xcassets */,
 				2730187B1E8BF71D00F3ADA3 /* LaunchScreen.storyboard */,
 				2730187E1E8BF71E00F3ADA3 /* Info.plist */,
+				273018841E8BF78A00F3ADA3 /* CustomButton.swift */,
+				273018861E8BF86700F3ADA3 /* UIViewStyling.swift */,
 			);
 			path = CustomButton;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				273018751E8BF71D00F3ADA3 /* ViewController.swift in Sources */,
+				273018871E8BF86700F3ADA3 /* UIViewStyling.swift in Sources */,
 				273018731E8BF71D00F3ADA3 /* AppDelegate.swift in Sources */,
+				273018851E8BF78A00F3ADA3 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
